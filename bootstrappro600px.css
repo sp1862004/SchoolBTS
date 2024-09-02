@@ -1,0 +1,293 @@
+@media(min-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: myfont;
+    }
+    @font-face {
+        font-family: myfont;
+        src: url(Kiwi_Maru/KiwiMaru-Medium.ttf);
+    }
+    
+    /* nav bar starts  */
+    .nav1{height: 100px; z-index: 100 !important;}
+     #btn1{ width: 200px; background-color: #ff0066; color: white;  padding-bottom: 20px; height: 45px; border-radius: 50px; font-size: medium; text-align: center; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; font-weight: bold; margin-top: -25px;}
+    .navbar-nav{margin-bottom: 50px;}
+    #Home{color: black; margin-top: -20px; padding-bottom: 20px;}
+    #Home:hover{color: #ff0066;}
+    .mynav{justify-content: flex-end; background-color: whitesmoke;}
+     /* nav bar end  */
+    
+     /* welcome to prechol starts  */
+    .bgimg1{background-position: 70% 70%;background-size: cover; background-repeat: no-repeat; background-image: url(img/bg1.jpg); position: absolute; width: 100%;  height: 600px;}
+    .min1{position: relative; z-index: 10;}
+    .Welcome{font-weight: bolder; font-size: 50px; padding-top: 50px; }
+    .img-container{border-radius: 20px; width: 600px;}
+    .stare{width: 280px; }
+    .stare-1{display: flex; padding: 20px 30px; gap: 20px; background-color: white; border-radius: 20px; box-shadow: 0px 10px 20px 0px rgba(29, 29, 27, 0.2); height: 100px;}
+    #img1{height: 30px; width: 30px; object-fit: contain; margin: auto;}
+    .text2{font-weight: bold; font-size: 19px;}
+    #boton1{color: #808080; background-color: white; border-radius: 60px; line-height: 1.45; font-weight: 600; width: 180px; height: 45px;  margin-top: 50px; margin-left: 45px;}
+    #boton2{background-color: #ff0066 ; border-radius: 60px; line-height: 1.45; font-weight: 600; width: 150px; height: 45px; color: white; margin-top: 50px;}
+    /* welcome to prechol end */
+    
+     /* unique learning environment starts   */
+     #colcol{width: 500px;}
+     .unique1{margin-top: 50px; padding: 60px 60px 60px 60px !important;}
+     .learning{ padding: 80px 80px 60px 80px; box-shadow: 0px 10px 20px 0px rgba(29, 29, 27, 0.2); background: transparent; border-radius: 20px;}
+     .uniqueh2{font-size: 2.8rem !important; font-weight: 400; line-height: 1.15; font-weight: bold !important;}
+     .first{margin: 0.8rem 0; border-radius: 20px; border: none; display: flex; flex-direction: column; background-color: #fab6c6; padding-left: 16px; padding-right: 16px;}
+     .first1{padding: 50px 30px; align-items: start; gap: 20px;}
+     .icon1{width: 25px;}
+     .textwriting1{font-size: 1rem; line-height: 1.55;}
+     #textwriting1-2{font-size: 1.10rem; line-height: 1.25; font-weight: bold;}
+     .second{margin: 0.8rem 0; border-radius: 20px; border: none; display: flex; flex-direction: column; background-color: #a8d657; padding-left: 16px; padding-right: 16px;}
+     .second2{padding: 50px 30px; align-items: start; gap: 20px;}
+     .icon2{width: 25px;}
+     .textwriting2{font-size: 1rem; line-height: 1.55;}
+     #textwriting2-2{font-size: 1.15rem; line-height: 1.25; font-weight: bold;}
+     .third{margin: 0.8rem 0; border-radius: 20px; border: none; display: flex; flex-direction: column; background-color: #f5e74c; padding-left: 16px; padding-right: 16px;}
+     .third3{padding: 50px 30px; align-items: start; gap: 20px;}
+     .icon3{width: 25px;}
+     .textwriting3{font-size: 1rem; line-height: 1.55;}
+     #textwriting3-2{font-size: 1.10rem; line-height: 1.25; font-weight: bold}
+     /* unique learning environment end   */
+    
+     /* future section starts  */
+    .min2{background-image:url(img/bg2.jpg); background-position: 70% 70%;}
+    .min2-2{padding: 80px 80px 80px 80px;}
+     #min2h2{font-weight: bold;  font-size: 2.8rem; line-height: 1.15; padding-top: 20px; padding-left: 90px; padding-bottom: 20px; }
+     .min3{padding: 40px 40px 40px 40px;}
+     .future-1{background-color: white; border-radius: 20px;}
+     .body{padding: 40px 40px 40px 40px;}
+     .min4{gap: 20px;}
+     #img2{height: 35px; width: 35px;}
+     .titleh4{font-weight: bold !important; font-size: 20px !important;}
+     #ENROLLCHILD{background-color: #ff0066; color: white; width: 350px;  border-radius: 20px; font-weight: bold;  box-shadow: 0 10px 20px 0 rgba(29, 29, 27, 0.2);}
+     .min5{padding: 40px 40px 40px 40px;}
+     #ENROLLCHILD:hover{background-color: white; color: black;}
+    /* future section end  */
+     
+     /* Teachers section starts */
+      .card-group{padding: 20px 20px 20px 20px; gap: 100px; padding-left: 100px; padding-right: 50px;}
+      .card1{background-color: #ebeae2; border-radius: 20px; border: none; height: 420px; width: 350px;}
+      .card2{background-color: #ebeae2; border-radius: 20px; border: none; height: 420px; width: 350px;}
+      .card3{background-color: #ebeae2; border-radius: 20px; border: none; height: 420px; width: 350px;}
+      .card4{background-color: #ebeae2; border-radius: 20px; border: none; height: 420px; width: 350px;}
+      #img3-1{border-radius: 100%; padding: 50px;}
+      #img3-2{border-radius: 100%; padding: 50px;}
+      #img3-3{border-radius: 100%; padding: 50px;}
+      #img3-4{border-radius: 100%; padding: 50px;}
+      .card-title{text-align: center; font-weight: bold; margin-top: -20px;}
+      .card-text{text-align: center; padding-top: 5px;}
+      /* .card2{background-color: #ebeae2; border-radius: 20px; border: none; } */
+      #min6h2{font-weight: bold; font-size: 40px; padding-top: 100px; padding-bottom: 50px; padding-left: 120px;}
+      .min6{display: flex; justify-content: center; gap: 5px;}
+      #boton3{ height: 35px; width: 40px; border-radius: 100%; background-color: #ff0066;}
+      #boton3 i{font-size: 20px; margin-top: 8px; margin-left: 10px; color: white;}
+      #boton4{ height: 35px; width: 40px; border-radius: 100%; background-color: #ff0066;}
+      #boton4 i{font-size: 20px; margin-top: 8px; margin-left: 10px; color: white;}
+      /* Teachers section  end  */
+    
+    /* Preschool photo section starts  */
+    #titleh2{font-weight: bold; text-align: center; padding-top: 150px; padding-bottom: 100px; font-size: 45px;}
+    .photo{padding-left: 60px; padding-right: 60px;}
+    /* #Preschool-photo-boton{height: 12px; width: 12px; border-radius: 100%; background-color: #ff0066; } */
+    #carouselExampleIndicators{padding-left: 50px; padding-right: 50px; }
+    .carousel-inner{border-radius: 20px; height: 100vh;}
+    #boton5{height: 35px; width: 40px; border-radius: 100%; background-color: #ff0066; }
+    #boton6{font-size: 20px; margin-top: 8px; margin-left: 10px; color: white;}
+     /* Preschool photo section end */
+    
+     /* Contact us section starts  */
+    .Contact-us{background-image: url(https://mobirise.com/extensions/preschoolm5/preschool-education/assets/images/bg2-3-1920x1280.jpg); margin-top: 80px; background-position: 60% 60%; background-size: cover; height: 1000px;}
+    #Contact-us-min1{padding-bottom: 100px !important; }
+    #Contact-us-min1-h2{font-weight: bold; padding-top: 100px; font-size: 50px; margin-left: 100px;}
+    #Contact-us-min1-h3{font-size: 20px; font-weight: bold;  margin-left: 100px;}
+    #Contact-us-min1-h4{font-weight: bold; font-size: 20px; margin-left: 100px;}
+    #Contact-us-min1-p{margin-left: 100px ;}
+    #Contact-us-min1-p2{margin-left: 100px;}
+    #Contact-us-min2{border-radius: 20px; background-color: #ebeae2;  padding-right: 150px; height: 430px; width: 450px; margin-left: 75px;}
+    #Contact-us-min2-form{height: 450px; }
+    .Contact-us-min2-h2{font-weight: bold; padding-top: 50px; font-size: 40px; padding-left: 30px; }
+    .Contact-us-min2-input1{box-shadow: rgba(0,0,0,0.07) 0px 1px 1px 0px, rgba(0,0,0,0.07) 0px 1px 3px 0px, rgba(0,0,0,0.03) 0px 0px 0px 1px; width: 350px; height: 30px; border-radius: 50px; border: none; padding-left: 20px; margin-left: 30px;}
+    .Contact-us-min2-input2{box-shadow: rgba(0,0,0,0.07) 0px 1px 1px 0px, rgba(0,0,0,0.07) 0px 1px 3px 0px, rgba(0,0,0,0.03) 0px 0px 0px 1px; width: 350px; height: 30px; border-radius: 50px; border: none; padding-left: 20px; margin-left: 30px;}
+    .Contact-us-min2-p{ font-size: 15px; margin-left: 30px;}
+    #Contact-us-min2-boton1{ margin-left: 30px; background-color: #ff0066; color: white; width: 350px; height: 40px; border-radius: 20px; font-weight: bold; box-shadow: 0 10px 20px 0 rgba(29, 29, 27, 0.2);}
+    #Contact-us-min2-boton1:hover{background-color: white; color: black;}
+     /* Contact us section end  */
+    
+    /* Answer and Questions section starts  */
+    #Ans-Ques-h2{text-align: center; font-size: 45px;}
+    #Ans-Ques-1{width: 1200px; margin: auto;}
+    .Ans-Ques-first{ border-radius: 20px; box-shadow: 0px 10px 20px 0px rgba(29, 29, 27, 0.2); display: flex;}
+    #Ans-Ques-h3-1{font-size: 20px; font-weight: bold; padding-top: 50px;  margin: auto; margin-left: 100px; padding-bottom: 50px;}
+    /* .Ans-Ques-container-1{height: 50px; width: 40px; border-radius: 50px;  background-color: white; margin-right: 100px; margin-top: 40px;} */
+    #Ans-Ques-i{font-size: 20px; margin-left: -17px; margin-top: 10px; color: black;}
+    #Ans-Ques-i:hover{background-color: #ff0066; color: white;}
+    .Ans-Ques-row{padding-top: 30px;}
+    /* Answer and Questions section end  */
+    
+     /* last section starts  */
+    
+     .last-section-containar{margin-top: 180px; margin-bottom: 80px;}
+     #last-section-row{height: 150px; padding-left: 0px;  padding-right: 50px; border-radius: 20px; background-color: #ebeae2;}
+     #last-section-col{padding-top: 50px;}
+     .logo{display: flex;}
+     #last-section-img{height: 35px; width: 35px;}
+     .last-section-col1{padding-top: 0px;}
+     .last-section-p{text-align: right; margin-top: -75px; }
+     /* last section end  */
+     .row{
+        --bs-gutter-x: 0!important;
+     }
+}
+
+
+
+@media(max-width: 600px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: myfont;
+    }
+    @font-face {
+        font-family: myfont;
+        src: url(Kiwi_Maru/KiwiMaru-Medium.ttf);
+    }
+    
+    /* nav bar starts  */
+    .nav1{height: 100px; z-index: 100 !important;}
+     #btn1{ width: 200px; background-color: #ff0066; color: white;  padding-bottom: 20px; height: 45px; border-radius: 50px; font-size: medium; text-align: center; box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; font-weight: bold; margin-top: -25px;}
+    .navbar-nav{margin-bottom: 50px;}
+    #Home{color: black; margin-top: -20px; padding-bottom: 20px;}
+    #Home:hover{color: #ff0066;}
+    .mynav{justify-content: flex-end;}
+     /* nav bar end  */
+    
+     /* welcome to prechol starts  */
+    .bgimg1{background-position: 70% 70%;background-size: cover; background-repeat: no-repeat; background-image: url(img/bg1.jpg); position: absolute; width: 100%;  height: 600px;}
+    .min1{position: relative; z-index: 10;}
+    .Welcome{font-weight: bolder; font-size: 50px; padding-top: 50px;}
+    .img-container{border-radius: 20px; width: 600px;}
+    .stare{width: 280px; }
+    .stare-1{display: flex; padding: 20px 30px; gap: 20px; background-color: white; border-radius: 20px; box-shadow: 0px 10px 20px 0px rgba(29, 29, 27, 0.2); height: 100px;}
+    #img1{height: 30px; width: 30px; object-fit: contain; margin: auto;}
+    .text2{font-weight: bold; font-size: 19px;}
+    #boton1{color: #808080; background-color: white; border-radius: 60px; line-height: 1.45; font-weight: 600; width: 180px; height: 45px;  margin-top: 50px; margin-left: 45px;}
+    #boton2{background-color: #ff0066 ; border-radius: 60px; line-height: 1.45; font-weight: 600; width: 150px; height: 45px; color: white; margin-top: 50px;}
+    /* welcome to prechol end */
+    
+     /* unique learning environment starts   */
+     #colcol{width: 500px;}
+     .unique1{margin-top: 50px; padding: 60px 60px 60px 60px !important;}
+     .learning{ padding: 80px 80px 60px 80px; box-shadow: 0px 10px 20px 0px rgba(29, 29, 27, 0.2); background: transparent; border-radius: 20px;}
+     .uniqueh2{font-size: 2.8rem !important; font-weight: 400; line-height: 1.15; font-weight: bold !important;}
+     .first{margin: 0.8rem 0; border-radius: 20px; border: none; display: flex; flex-direction: column; background-color: #fab6c6; padding-left: 16px; padding-right: 16px;}
+     .first1{padding: 50px 30px; align-items: start; gap: 20px;}
+     .icon1{width: 25px;}
+     .textwriting1{font-size: 1rem; line-height: 1.55;}
+     #textwriting1-2{font-size: 1.10rem; line-height: 1.25; font-weight: bold;}
+     .second{margin: 0.8rem 0; border-radius: 20px; border: none; display: flex; flex-direction: column; background-color: #a8d657; padding-left: 16px; padding-right: 16px;}
+     .second2{padding: 50px 30px; align-items: start; gap: 20px;}
+     .icon2{width: 25px;}
+     .textwriting2{font-size: 1rem; line-height: 1.55;}
+     #textwriting2-2{font-size: 1.15rem; line-height: 1.25; font-weight: bold;}
+     .third{margin: 0.8rem 0; border-radius: 20px; border: none; display: flex; flex-direction: column; background-color: #f5e74c; padding-left: 16px; padding-right: 16px;}
+     .third3{padding: 50px 30px; align-items: start; gap: 20px;}
+     .icon3{width: 25px;}
+     .textwriting3{font-size: 1rem; line-height: 1.55;}
+     #textwriting3-2{font-size: 1.10rem; line-height: 1.25; font-weight: bold}
+     /* unique learning environment end   */
+    
+     /* future section starts  */
+    .min2{background-image:url(img/bg2.jpg); background-position: 70% 70%;}
+    .min2-2{padding: 80px 80px 80px 80px;}
+     #min2h2{font-weight: bold;  font-size: 2.8rem; line-height: 1.15; padding-top: 20px; padding-left: 90px; padding-bottom: 20px; }
+     .min3{padding: 40px 40px 40px 40px;}
+     .future-1{background-color: white; border-radius: 20px;}
+     .body{padding: 40px 40px 40px 40px;}
+     .min4{gap: 20px;}
+     #img2{height: 35px; width: 35px;}
+     .titleh4{font-weight: bold !important; font-size: 20px !important;}
+     #ENROLLCHILD{background-color: #ff0066; color: white; width: 350px;  border-radius: 20px; font-weight: bold;  box-shadow: 0 10px 20px 0 rgba(29, 29, 27, 0.2);}
+     .min5{padding: 40px 40px 40px 40px;}
+     #ENROLLCHILD:hover{background-color: white; color: black;}
+    /* future section end  */
+     
+     /* Teachers section starts */
+      .card-group{padding: 20px 20px 20px 20px; gap: 100px; padding-left: 100px; padding-right: 50px;}
+      .card1{background-color: #ebeae2; border-radius: 20px; border: none; height: 420px; width: 350px;}
+      .card2{background-color: #ebeae2; border-radius: 20px; border: none; height: 420px; width: 350px;}
+      .card3{background-color: #ebeae2; border-radius: 20px; border: none; height: 420px; width: 350px;}
+      .card4{background-color: #ebeae2; border-radius: 20px; border: none; height: 420px; width: 350px;}
+      #img3-1{border-radius: 100%; padding: 50px;}
+      #img3-2{border-radius: 100%; padding: 50px;}
+      #img3-3{border-radius: 100%; padding: 50px;}
+      #img3-4{border-radius: 100%; padding: 50px;}
+      .card-title{text-align: center; font-weight: bold; margin-top: -20px;}
+      .card-text{text-align: center; padding-top: 5px;}
+      /* .card2{background-color: #ebeae2; border-radius: 20px; border: none; } */
+      #min6h2{font-weight: bold; font-size: 40px; padding-top: 100px; padding-bottom: 50px; padding-left: 120px;}
+      .min6{display: flex; justify-content: center; gap: 5px;}
+      #boton3{ height: 35px; width: 40px; border-radius: 100%; background-color: #ff0066;}
+      #boton3 i{font-size: 20px; margin-top: 8px; margin-left: 10px; color: white;}
+      #boton4{ height: 35px; width: 40px; border-radius: 100%; background-color: #ff0066;}
+      #boton4 i{font-size: 20px; margin-top: 8px; margin-left: 10px; color: white;}
+      /* Teachers section  end  */
+    
+    /* Preschool photo section starts  */
+    #titleh2{font-weight: bold; text-align: center; padding-top: 150px; padding-bottom: 100px; font-size: 45px;}
+    .photo{padding-left: 60px; padding-right: 60px;}
+    /* #Preschool-photo-boton{height: 12px; width: 12px; border-radius: 100%; background-color: #ff0066; } */
+    #carouselExampleIndicators{padding-left: 50px; padding-right: 50px; }
+    .carousel-inner{border-radius: 20px; height: 100vh;}
+    #boton5{height: 35px; width: 40px; border-radius: 100%; background-color: #ff0066; }
+    #boton6{font-size: 20px; margin-top: 8px; margin-left: 10px; color: white;}
+     /* Preschool photo section end */
+    
+     /* Contact us section starts  */
+    .Contact-us{background-image: url(https://mobirise.com/extensions/preschoolm5/preschool-education/assets/images/bg2-3-1920x1280.jpg); margin-top: 80px; background-position: 60% 60%; background-size: cover; height: 1000px;}
+    #Contact-us-min1{padding-bottom: 100px !important; }
+    #Contact-us-min1-h2{font-weight: bold; padding-top: 100px; font-size: 50px; margin-left: 100px;}
+    #Contact-us-min1-h3{font-size: 20px; font-weight: bold;  margin-left: 100px;}
+    #Contact-us-min1-h4{font-weight: bold; font-size: 20px; margin-left: 100px;}
+    #Contact-us-min1-p{margin-left: 100px ;}
+    #Contact-us-min1-p2{margin-left: 100px;}
+    #Contact-us-min2{border-radius: 20px; background-color: #ebeae2;  padding-right: 150px; height: 430px; width: 450px; margin-left: 75px;}
+    #Contact-us-min2-form{height: 450px; }
+    .Contact-us-min2-h2{font-weight: bold; padding-top: 50px; font-size: 40px; padding-left: 30px; }
+    .Contact-us-min2-input1{box-shadow: rgba(0,0,0,0.07) 0px 1px 1px 0px, rgba(0,0,0,0.07) 0px 1px 3px 0px, rgba(0,0,0,0.03) 0px 0px 0px 1px; width: 350px; height: 30px; border-radius: 50px; border: none; padding-left: 20px; margin-left: 30px;}
+    .Contact-us-min2-input2{box-shadow: rgba(0,0,0,0.07) 0px 1px 1px 0px, rgba(0,0,0,0.07) 0px 1px 3px 0px, rgba(0,0,0,0.03) 0px 0px 0px 1px; width: 350px; height: 30px; border-radius: 50px; border: none; padding-left: 20px; margin-left: 30px;}
+    .Contact-us-min2-p{ font-size: 15px; margin-left: 30px;}
+    #Contact-us-min2-boton1{ margin-left: 30px; background-color: #ff0066; color: white; width: 350px; height: 40px; border-radius: 20px; font-weight: bold; box-shadow: 0 10px 20px 0 rgba(29, 29, 27, 0.2);}
+    #Contact-us-min2-boton1:hover{background-color: white; color: black;}
+     /* Contact us section end  */
+    
+    /* Answer and Questions section starts  */
+    #Ans-Ques-h2{text-align: center; font-size: 45px;}
+    #Ans-Ques-1{width: 1200px; margin: auto;}
+    .Ans-Ques-first{ border-radius: 20px; box-shadow: 0px 10px 20px 0px rgba(29, 29, 27, 0.2); display: flex;}
+    #Ans-Ques-h3-1{font-size: 20px; font-weight: bold; padding-top: 50px;  margin: auto; margin-left: 100px; padding-bottom: 50px;}
+    /* .Ans-Ques-container-1{height: 50px; width: 40px; border-radius: 50px;  background-color: white; margin-right: 100px; margin-top: 40px;} */
+    #Ans-Ques-i{font-size: 20px; margin-left: -17px; margin-top: 10px; color: black;}
+    #Ans-Ques-i:hover{background-color: #ff0066; color: white;}
+    .Ans-Ques-row{padding-top: 30px;}
+    /* Answer and Questions section end  */
+    
+     /* last section starts  */
+    
+     .last-section-containar{margin-top: 180px; margin-bottom: 80px;}
+     #last-section-row{height: 150px; padding-left: 0px;  padding-right: 50px; border-radius: 20px; background-color: #ebeae2;}
+     #last-section-col{padding-top: 50px;}
+     .logo{display: flex;}
+     #last-section-img{height: 35px; width: 35px;}
+     .last-section-col1{padding-top: 0px;}
+     .last-section-p{text-align: right; margin-top: -75px; }
+     /* last section end  */
+     .row{
+        --bs-gutter-x: 0!important;
+     }
+}
